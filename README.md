@@ -43,3 +43,4 @@ Nakon zavrsetka radnog dana menadzeru i vlasniku kina se salju izvjestaji o posj
 -Modul za pravljenje izvjestaja o posjecenosti, gledanosti i prihodu
 
 -Modul za narudzbenicu artikala
+
