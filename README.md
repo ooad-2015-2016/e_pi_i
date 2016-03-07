@@ -21,8 +21,11 @@ Klijent ukoliko zeli moze postati i VIP clan kina. Potrebno je da na licu mjesta
 Nakon zavrsetka radnog dana menadzeru i vlasniku kina se salju izvjestaji o posjecenosti kina proteklog dana, pojedinacnoj gledanosti filmova koji su u ponudi, i prihodu koji je ostvaren proteklog dana.
 ####**Funkcionalnosti**
 -Modul za logiranje na softver za zaposlenike
+
 -Modul za prijavu VIP klijenata
+
 -Registracija novog VIP klijenta
+
 -Modul za odabir filma
 -Modul za odabir paketa
 -Modul za formiranje ponuda
