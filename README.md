@@ -6,6 +6,11 @@ Clanovi tima:
 2.Emina Medar
 3.Nejla Smajic
 
+####**Opis teme**
+Cilj projekta je kreiranje softvera koji omogucava laksu komunikaciju izmedju klijenta i uposlenika kina, te nudi svim posjetiocima pregledniji uvid u ponudjene usluge, kao i beneficije koje dobivaju VIP clanarinom.
+
+Informacioni sistem koji sadrzi podatke o zalihama proizvoda, rezervacijama karata, broju i poziciji slobodnih mijesta u kino sali, te emitovanim projekcijama pridonosi efikasnijem i fleksibilnijem radu zaposlenika na blagajnoj. Softver takodjer omogucuje menadzerima bolje upravljanje kinom kroz automatsku izradu izvjestaja o posjecenosti, te prihodima i rashodima. 
+
 ####**Procesi**
 ######**Formiranje ponude**
 Ponudu kina u cjelosti formira menadzer. Nakon sto se loguje na softver njemu je omoguceno da dodaje nove, i brise stare  filmove sa popisa filmova cija se projekcija vrsi naredne sedmice. Takodjer on formira posebne pakete usluga koji sa sobm nose odredjene pogodnosti za klijente (family, birthiday, lady... pakete). Prilikom formiranja ponude menadzer odredjuje cijene  karata za projekcije, kao  cijene posebnih paketa.
