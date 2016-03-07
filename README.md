@@ -27,11 +27,19 @@ Nakon zavrsetka radnog dana menadzeru i vlasniku kina se salju izvjestaji o posj
 -Registracija novog VIP klijenta
 
 -Modul za odabir filma
+
 -Modul za odabir paketa
+
 -Modul za formiranje ponuda
+
 -Modul za izmjenu ponuda
+
 -Modul za pracenje kapaciteta sala i parkinga
+
 -Modul za pracenje zaliha artikala
+
 -Modul za rezervaciju
+
 -Modul za pravljenje izvjestaja o posjecenosti, gledanosti i prihodu
+
 -Modul za narudzbenicu artikala
