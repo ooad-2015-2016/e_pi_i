@@ -1,11 +1,11 @@
 # e_pi_i
-## **Kino**
-**Clanovi tima: **
+##Kino
+Clanovi tima:
 1.Amila Jakubovic 
 2.Emina Medar
 3.Nejla Smajic
 **Procesi**
-###**Formiranje ponude**
+**###Formiranje ponude**
 Ponudu kina u cjelosti formira menadzer. Nakon sto se loguje na softver njemu je omoguceno da dodaje nove, i brise stare  filmove sa popisa filmova cija se projekcija vrsi naredne sedmice. Takodjer on formira posebne pakete usluga koji sa sobm nose odredjene pogodnosti za klijente (family, birthiday, lady... pakete). Prilikom formiranja ponude menadzer odredjuje cijene  karata za projekcije, kao  cijene posebnih paketa.
 ###**Izmjena  ponude**
 Nakon logovanja na softver menadzer je u mogucnosti da napravi izmjene u ponudi za tekucu sedmicu, poput promjene termina pojedinih projekcija, ili neke dugorocnije izmjene poput promjene cijena grickalica i sokova.
