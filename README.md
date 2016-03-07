@@ -6,5 +6,5 @@ Clanovi tima:
 2.Emina Medar
 3.Nejla Smajic
 
-**Procesi**
-####**Formiranje ponude**
+####**Procesi**
+######**Formiranje ponude**
