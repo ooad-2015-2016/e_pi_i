@@ -1,61 +1,69 @@
-# e_pi_i
+#e_pi_i
 
 ##Kino
 
-Članovi tima:
+**Članovi tima**:
 1. Amila Jakubović 
 2. Emina Medar
 3. Nejla Smajić
 
 ####**Opis teme**
-Cilj projekta je kreiranje softvera koji omogucava laksu komunikaciju izmedju klijenta i uposlenika kina, te nudi svim posjetiocima pregledniji uvid u ponudjene usluge, kao i beneficije koje dobivaju VIP clanarinom.
 
-Informacioni sistem koji sadrzi podatke o zalihama proizvoda, rezervacijama karata, broju i poziciji slobodnih mijesta u kino sali, te emitovanim projekcijama pridonosi efikasnijem i fleksibilnijem radu zaposlenika na blagajnoj. Softver takodjer omogucuje menadzerima bolje upravljanje kinom kroz automatsku izradu izvjestaja o posjecenosti, te prihodima i rashodima. 
+Cilj projekta je kreiranje softvera koji omogućava lakšu komunikaciju između klijenta i uposlenika kina, te nudi svim posjetiocima pregledniji uvid u ponuđene usluge, kao i beneficije koje dobivaju VIP članarinom.
+
+Informacioni sistem, koji sadrži podatke o zalihama proizvoda, rezervacijama karata, broju i poziciji slobodnih mjesta u kino-sali, te emitovanim projekcijama, pridonosi efikasnijem i fleksibilnijem radu zaposlenika na blagajnoj. Softver također omogućuje menadžerima bolje upravljanje kinom kroz automatsku izradu izvještaja o posjećenosti, te prihodima i rashodima. 
 
 ####**Procesi**
+
 ######**Formiranje ponude**
-Ponudu kina u cjelosti formira menadzer. Nakon sto se loguje na softver njemu je omoguceno da dodaje nove, i brise stare  filmove sa popisa filmova cija se projekcija vrsi naredne sedmice. Takodjer on formira posebne pakete usluga koji sa sobm nose odredjene pogodnosti za klijente (family, birthiday, lady... pakete). Prilikom formiranja ponude menadzer odredjuje cijene  karata za projekcije, kao  cijene posebnih paketa.
+Ponudu kina u cjelosti formira menadžer. Nakon sto se loguje na softver, njemu je omogućeno da dodaje nove i briše stare  filmove sa popisa filmova čija se projekcija vrši naredne sedmice. Također, on formira posebne pakete usluga koji sa sobom nose određene pogodnosti za klijente (family, birthday, lady,... pakete). Prilikom formiranja ponude menadžer određuje cijene  karata za projekcije, kao i cijene posebnih paketa.
 ######**Izmjena  ponude**
-Nakon logovanja na softver menadzer je u mogucnosti da napravi izmjene u ponudi za tekucu sedmicu, poput promjene termina pojedinih projekcija, ili neke dugorocnije izmjene poput promjene cijena grickalica i sokova.
-######**Pracenje i nabavka zaliha grickalica i sokova**
-Softver prati stanje zaliha grickalica i sokova. Ukoliko broj artikala jedne vrste padne na 30 i manje softver o tome obavjestava uposlenika koji komunicira sa dobavljacima. Nakon sto se stanje artikala poveca uposlenik koji komunicira sa dobavljacima moze azurirati podatke o zalihama.
-######**Podaja karata, grickalica i izdavanje parking prostora**
-Karte i grickalice se prodaju na kasi, na zahtjev klijenta. Uposlenik na blagajni/blagajnik je tu da pomogne klijentu pri izboru filma, ili eventualno,  nekog od paketa usluga koji ukljucuje parking i grickalice i sl., kao i da izvrsi naplatu. Treba napomenuti da je moguce da klijent napravi i rezervaciju 7 dana unaprijed.
-######**Registracija VIP clanova**
-Klijent ukoliko zeli moze postati i VIP clan kina. Potrebno je da na licu mjesta ostavi neke osobne podatke (ime, prezime, adresu, email, broj telefona...) koji bivaju pohranjeni u softver, a zatim je potrebno da klijent uplati godisnju clanarinu. Softver generise jedinstveni kod za novog VIP korisnika kina. Nakon sto postane VIP korisnik klijent ostvaruje popust na sve usluge u vrijednsti od 10% za godinu dana.
-######**Izdavanje izvjestaja o dnevnoj posjecenosti i profitu**
-Nakon zavrsetka radnog dana menadzeru i vlasniku kina se salju izvjestaji o posjecenosti kina proteklog dana, pojedinacnoj gledanosti filmova koji su u ponudi, i prihodu koji je ostvaren proteklog dana.
+Nakon logovanja na softver menadžer je u mogućnosti da napravi izmjene u ponudi za tekuću sedmicu, poput promjene termina pojedinih projekcija, ili neke dugoročnije izmjene, poput promjene cijena grickalica i sokova.
+######**Praćenje i nabavka zaliha grickalica i sokova**
+Softver prati stanje zaliha grickalica i sokova. Ukoliko broj artikala jedne vrste padne na 30 ili manje softver o tome obavještava uposlenika, koji komunicira sa dobavljačima. Nakon što se stanje artikala poveća uposlenik koji komunicira sa dobavljačima moze ažurirati podatke o zalihama.
+######**Prodaja karata, grickalica i izdavanje parking-prostora**
+Karte i grickalice se prodaju na kasi, na zahtjev klijenta. Uposlenik na blagajni/blagajnik je tu da pomogne klijentu pri izboru filma ili, eventualno, nekog od paketa usluga koji uključuje parking, grickalice i sl, kao i da izvrši naplatu. Treba napomenuti da je moguće da klijent napravi i rezervaciju 7 dana unaprijed.
+######**Registracija VIP članova**
+Klijent ukoliko želi može postati i VIP član kina. Potrebno je da na licu mjesta ostavi neke osobne podatke (ime, prezime, adresu, e-mail, broj telefona,...), koji bivaju pohranjeni u softver, a zatim je potrebno da uplati godišnju članarinu. Softver generiše jedinstveni kod za novog VIP korisnika kina. Nakon što postane VIP korisnik, klijent ostvaruje popust na sve usluge u vrijednosti od 10% za godinu dana.
+######**Izdavanje izvještaja o dnevnoj posjećenosti i profitu**
+Nakon završetka radnog dana menadžeru i vlasniku kina se šalju izvještaji o posjećenosti kina proteklog dana, pojedinačnoj gledanosti filmova koji su u ponudi, i prihodu koji je ostvaren proteklog dana.
+
 ####**Funkcionalnosti**
--Modul za logiranje na softver za zaposlenike
 
--Modul za prijavu VIP klijenata
+- Modul za logiranje na softver za zaposlenike
 
--Registracija novog VIP klijenta
+- Modul za prijavu VIP klijenata
 
--Modul za odabir filma
+- Registracija novog VIP klijenta
 
--Modul za odabir paketa
+- Modul za odabir filma
 
--Modul za formiranje ponuda
+- Modul za odabir paketa
 
--Modul za izmjenu ponuda
+- Modul za formiranje ponuda
 
--Modul za pracenje kapaciteta sala i parkinga
+- Modul za izmjenu ponuda
 
--Modul za pracenje zaliha artikala
+- Modul za praćenje kapaciteta sala i parkinga
 
--Modul za rezervaciju
+- Modul za praćenje zaliha artikala
 
--Modul za pravljenje izvjestaja o posjecenosti, gledanosti i prihodu
+- Modul za rezervaciju
 
--Modul za narudzbenicu artikala
+- Modul za pravljenje izvještaja o posjećenosti, gledanosti i prihodu
+
+- Modul za narudžbenicu artikala
 
 ####**Akteri**
 
-######**Vlasnik** - kontroliše ispravnost svih radnji unutar posmatranog sistema, ima pristup svim segmentima softvera
+######**Vlasnik** 
+- kontroliše ispravnost svih radnji unutar posmatranog sistema, ima pristup svim segmentima softvera
 
-######**Menadžer** - ima potpunu kontrolu nad sotverom (refresh liste filmova, termina, postavljanje cijena usluga, odabir posebnih paketa i pogodnosti...), u svakom trenutku može pristupiti aktuelnom stanju
+######**Menadžer** 
+- ima potpunu kontrolu nad sotverom (refresh liste filmova, termina, postavljanje cijena usluga, odabir posebnih paketa i pogodnosti...), u svakom trenutku može pristupiti aktuelnom stanju
 
-######**Uposlenici (blagajna)** - rezervacija/prodaja karata, prodaja grickalica/napitaka, te korištenje softvera za nabavku istih, izdavanje parking-prostora na zahtjev klijenta, ažuriranje VIP članova
+######**Uposlenici (blagajna)** 
+- rezervacija/prodaja karata, prodaja grickalica/napitaka, te korištenje softvera za nabavku istih, izdavanje parking-prostora na zahtjev klijenta, ažuriranje VIP članova
 
-######**Korisnici usluga (klijenti)** - imaju mogućnost gledanja kino-projekcija ili korištenja određenih paketa, mogućnost kupovine grickalica/napitaka, rezervacije parking-prostora. Klijent može postati VIP član, čime ostvaruje posebne pogodnosti
+######**Korisnici usluga (klijenti)** 
+- imaju mogućnost gledanja kino-projekcija ili korištenja određenih paketa, mogućnost kupovine grickalica/napitaka, rezervacije parking-prostora. Klijent može postati VIP član, čime ostvaruje posebne pogodnosti
