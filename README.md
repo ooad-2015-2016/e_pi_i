@@ -1,10 +1,11 @@
 # e_pi_i
+
 ##Kino
 
-Clanovi tima:
-1.Amila Jakubovic 
-2.Emina Medar
-3.Nejla Smajic
+Članovi tima:
+1. Amila Jakubović 
+2. Emina Medar
+3. Nejla Smajić
 
 ####**Opis teme**
 Cilj projekta je kreiranje softvera koji omogucava laksu komunikaciju izmedju klijenta i uposlenika kina, te nudi svim posjetiocima pregledniji uvid u ponudjene usluge, kao i beneficije koje dobivaju VIP clanarinom.
@@ -49,3 +50,12 @@ Nakon zavrsetka radnog dana menadzeru i vlasniku kina se salju izvjestaji o posj
 
 -Modul za narudzbenicu artikala
 
+####**Akteri**
+
+######**Vlasnik** - kontroliše ispravnost svih radnji unutar posmatranog sistema, ima pristup svim segmentima softvera
+
+######**Menadžer** - ima potpunu kontrolu nad sotverom (refresh liste filmova, termina, postavljanje cijena usluga, odabir posebnih paketa i pogodnosti...), u svakom trenutku može pristupiti aktuelnom stanju
+
+######**Uposlenici (blagajna)** - rezervacija/prodaja karata, prodaja grickalica/napitaka, te korištenje softvera za nabavku istih, izdavanje parking-prostora na zahtjev klijenta, ažuriranje VIP članova
+
+######**Korisnici usluga (klijenti)** - imaju mogućnost gledanja kino-projekcija ili korištenja određenih paketa, mogućnost kupovine grickalica/napitaka, rezervacije parking-prostora. Klijent može postati VIP član, čime ostvaruje posebne pogodnosti
