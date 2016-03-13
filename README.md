@@ -56,7 +56,7 @@ Nakon završetka radnog dana menadžeru i vlasniku kina se šalju izvještaji o 
 
 ####**Akteri**
 
-######**Vlasnik** 
+######**Direktor** 
 - kontroliše ispravnost svih radnji unutar posmatranog sistema, ima pristup svim segmentima softvera
 
 ######**Menadžer** 
