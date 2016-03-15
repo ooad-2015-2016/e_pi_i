@@ -9,9 +9,9 @@
 
 ####**Opis teme**
 
-Cilj projekta je kreiranje softvera koji omogućava lakšu komunikaciju između klijenta i uposlenika kina, te nudi svim posjetiocima pregledniji uvid u ponuđene usluge, kao i beneficije koje dobivaju VIP članarinom.
+Ovaj softver je osmisljen tako da komunikaciju izmedu klijenta i uposlenika  kina cini jednstavnijom. Kada se klijent pozeli prepustiti carima sedme umjetnosti potrebno je da dodje na blagajnu kina gdje ce moci izabrati nesto iz ponude bas po svojoj mjeri. Nakon sto odabere film iz ponude, i vrijeme projekcije, na raspolaganju je i niz drugih mogucnosti. Naime, ukoliko zeli, klijent moze uzeti i nesto od hrane i pica, kao i zakupiti parking mjesto na nekoliko sati. Kako su zelje klijenta zapovijed poslodavca, menadzer kina pomocu ovog softvera, pored formiranja klasicne ponude kina, u stanju je formirati i posebne pakete usluga. Ti paketi ukljucuju razlicite kombinacije usluga koje koje kino moze pruziti, a namijenjeni su razlicitim ciljnim grupama. Nakon sto klijent kaze svoje zelje, uposlenik ce uz pomoc sofvera provjeriti raspolozivost. Ukoliko kapaciteti nisu popunjeni uposlenik na blagajni zakljucuje narudzbu, i izvrsi naplatu, a softver automacki azurira podatke sistema u skladu sa onim sto je klijent odabrao.
+Bitno je napomenuti da su direktoru i menadzeru kina u svakom trenutku dostupni podaci o profitu, posjecenosti, gledanosti, stanju zaliha, i to pomocu ovog softvera, koji je napravljen tako da u svakom trenutku moze generisati pojedine izvjestaje.  Sa svim mogucnostima koje ovaj softver pruza, on bi trebao doprinijeti efikasnijem radu kina, i fleksibilnijoj komunikaciji izmedju uposlenika i posjetitelja kina.
 
-Informacioni sistem, koji sadrži podatke o zalihama proizvoda, rezervacijama karata, broju i poziciji slobodnih mjesta u kino-sali, te emitovanim projekcijama, pridonosi efikasnijem i fleksibilnijem radu zaposlenika na blagajnoj. Softver također omogućuje menadžerima bolje upravljanje kinom kroz automatsku izradu izvještaja o posjećenosti, te prihodima i rashodima. 
 
 ####**Procesi**
 
