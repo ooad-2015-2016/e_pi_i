@@ -19,9 +19,9 @@ Informacioni sistem, koji sadrži podatke o zalihama proizvoda, rezervacijama ka
 Ponudu kina u cjelosti formira menadžer. Nakon sto se loguje na softver, njemu je omogućeno da dodaje nove i briše stare  filmove sa popisa filmova čija se projekcija vrši naredne sedmice. Također, on formira posebne pakete usluga koji sa sobom nose određene pogodnosti za klijente (family, birthday, lady,... pakete). Prilikom formiranja ponude menadžer određuje cijene  karata za projekcije, kao i cijene posebnih paketa.
 ######**Izmjena  ponude**
 Nakon logovanja na softver menadžer je u mogućnosti da napravi izmjene u ponudi za tekuću sedmicu, poput promjene termina pojedinih projekcija, ili neke dugoročnije izmjene, poput promjene cijena grickalica i sokova.
-######**Praćenje i nabavka zaliha grickalica i sokova**
+######**Praćenje i nabavka zaliha robe**
 Softver prati stanje zaliha grickalica i sokova. Ukoliko broj artikala jedne vrste padne na 30 ili manje softver o tome obavještava uposlenika, koji komunicira sa dobavljačima. Nakon što se stanje artikala poveća uposlenik koji komunicira sa dobavljačima moze ažurirati podatke o zalihama.
-######**Prodaja karata, grickalica i izdavanje parking-prostora**
+######**Prodaja karata, robe i izdavanje parking-prostora**
 Karte i grickalice se prodaju na kasi, na zahtjev klijenta. Uposlenik na blagajni/blagajnik je tu da pomogne klijentu pri izboru filma ili, eventualno, nekog od paketa usluga koji uključuje parking, grickalice i sl, kao i da izvrši naplatu. Treba napomenuti da je moguće da klijent napravi i rezervaciju 7 dana unaprijed.
 ######**Registracija VIP članova**
 Klijent ukoliko želi može postati i VIP član kina. Potrebno je da na licu mjesta ostavi neke osobne podatke (ime, prezime, adresu, e-mail, broj telefona,...), koji bivaju pohranjeni u softver, a zatim je potrebno da uplati godišnju članarinu. Softver generiše jedinstveni kod za novog VIP korisnika kina. Nakon što postane VIP korisnik, klijent ostvaruje popust na sve usluge u vrijednosti od 10% za godinu dana.
@@ -46,7 +46,7 @@ Nakon završetka radnog dana menadžeru i vlasniku kina se šalju izvještaji o 
 
 - Modul za praćenje kapaciteta sala i parkinga
 
-- Modul za praćenje zaliha artikala
+- Modul za praćenje zaliha robe
 
 - Modul za rezervaciju
 
