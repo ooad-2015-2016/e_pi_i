@@ -4,13 +4,19 @@
 
 **Članovi tima**:
 1. Amila Jakubović 
+
 2. Emina Medar
+
 3. Nejla Smajić
 
 ####**Opis teme**
 
-Ovaj softver je osmisljen tako da komunikaciju izmedu klijenta i uposlenika  kina cini jednstavnijom. Kada se klijent pozeli prepustiti carima sedme umjetnosti potrebno je da dodje na blagajnu kina gdje ce moci izabrati nesto iz ponude bas po svojoj mjeri. Nakon sto odabere film iz ponude, i vrijeme projekcije, na raspolaganju je i niz drugih mogucnosti. Naime, ukoliko zeli, klijent moze uzeti i nesto od hrane i pica, kao i zakupiti parking mjesto na nekoliko sati. Kako su zelje klijenta zapovijed poslodavca, menadzer kina pomocu ovog softvera, pored formiranja klasicne ponude kina, u stanju je formirati i posebne pakete usluga. Ti paketi ukljucuju razlicite kombinacije usluga koje koje kino moze pruziti, a namijenjeni su razlicitim ciljnim grupama. Nakon sto klijent kaze svoje zelje, uposlenik ce uz pomoc sofvera provjeriti raspolozivost. Ukoliko kapaciteti nisu popunjeni uposlenik na blagajni zakljucuje narudzbu, i izvrsi naplatu, a softver automacki azurira podatke sistema u skladu sa onim sto je klijent odabrao.
-Bitno je napomenuti da su direktoru i menadzeru kina u svakom trenutku dostupni podaci o profitu, posjecenosti, gledanosti, stanju zaliha, i to pomocu ovog softvera, koji je napravljen tako da u svakom trenutku moze generisati pojedine izvjestaje.  Sa svim mogucnostima koje ovaj softver pruza, on bi trebao doprinijeti efikasnijem radu kina, i fleksibilnijoj komunikaciji izmedju uposlenika i posjetitelja kina.
+Ovaj softver je osmišljen tako da komunikaciju izmedu klijenta i uposlenika  kina čini jednstavnijom. Kada se klijent poželi prepustiti čarima sedme umjetnosti potrebno je da dođe na blagajnu kina gdje ce moći izabrati nesto iz ponude baš po svojoj mjeri. Nakon sto odabere film iz ponude, i vrijeme projekcije, na raspolaganju je i niz drugih mogućnosti.
+Naime, ukoliko želi, klijent može uzeti i nesto od hrane i pića, kao i zakupiti parking mjesto na nekoliko sati. Kako su želje klijenta zapovijed za poslodavca, menadžer kina pomoću ovog softvera, pored formiranja klasične ponude kina, u stanju je formirati i posebne pakete usluga. Ti paketi ukljućuju različite kombinacije usluga koje koje kino može pruziti, a namijenjeni su različitim ciljnim grupama. Nakon što klijent kaže svoje želje, uposlenik će uz pomoć sofvera provjeriti raspoloživost. Ukoliko kapaciteti nisu popunjeni uposlenik na blagajni zaključuje narudžbu, i izvrši naplatu, a softver automacki ažurira podatke sistema u skladu sa onim što je klijent odabrao.
+Najvećim ljubiteljima filmske umjetnosti softver daje mogućnost da se registruju kao VIP članovi kina, i na taj način za njih se obračunavaju nove cijenje usluga u skladu sa popustom koji ostvaruju.
+Bitno je napomenuti da su direktoru i menadžeru kina u svakom trenutku dostupni podaci o profitu, posjećenosti, gledanosti, stanju zaliha, i to pomoću ovog softvera, koji je napravljen tako da u svakom trenutku može generisati pojedine izvještaje.
+
+Sa svim mogućnostima koje ovaj softver pruža, on bi trebao doprinijeti efikasnijem radu kina, i fleksibilnijoj komunikaciji između uposlenika i posjetitelja kina.
 
 
 ####**Procesi**
@@ -22,7 +28,7 @@ Nakon logovanja na softver menadžer je u mogućnosti da napravi izmjene u ponud
 ######**Praćenje i nabavka zaliha robe**
 Softver prati stanje zaliha grickalica i sokova. Ukoliko broj artikala jedne vrste padne na 30 ili manje softver o tome obavještava uposlenika, koji komunicira sa dobavljačima. Nakon što se stanje artikala poveća uposlenik koji komunicira sa dobavljačima moze ažurirati podatke o zalihama.
 ######**Prodaja karata, robe i izdavanje parking-prostora**
-Karte i grickalice se prodaju na kasi, na zahtjev klijenta. Uposlenik na blagajni/blagajnik je tu da pomogne klijentu pri izboru filma ili, eventualno, nekog od paketa usluga koji uključuje parking, grickalice i sl, kao i da izvrši naplatu. Treba napomenuti da je moguće da klijent napravi i rezervaciju 7 dana unaprijed.
+Karte, hrana i pice se prodaju na kasi, na zahtjev klijenta. Uposlenik na blagajni/blagajnik je tu da pomogne klijentu pri izboru filma ili, eventualno, nekog od paketa usluga koji uključuje parking, grickalice i sl, kao i da izvrši naplatu. Treba napomenuti da je moguće da klijent napravi i rezervaciju 7 dana unaprijed.
 ######**Registracija VIP članova**
 Klijent ukoliko želi može postati i VIP član kina. Potrebno je da na licu mjesta ostavi neke osobne podatke (ime, prezime, adresu, e-mail, broj telefona,...), koji bivaju pohranjeni u softver, a zatim je potrebno da uplati godišnju članarinu. Softver generiše jedinstveni kod za novog VIP korisnika kina. Nakon što postane VIP korisnik, klijent ostvaruje popust na sve usluge u vrijednosti od 10% za godinu dana.
 ######**Izdavanje izvještaja o dnevnoj posjećenosti i profitu**
