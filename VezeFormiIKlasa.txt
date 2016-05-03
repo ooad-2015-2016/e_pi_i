@@ -1,0 +1,8 @@
+Veze formi sa klasama:
+
+Forma Home - povezana samo sa formama: Registracija VIP èlana, Kreiranje i izmjena ponude, Kupovina, Generisanje izvještaja, Trenutni repertoar, Novosti iz svijeta filma
+Forma Kupovina - povezana sa klasama ZaliheRobe, Projekcija (Film, Sala, Termin), VIP
+Forma Log In - povezana sa klasom Uposlenik
+Forma Novi film - povezana sa klasom Film
+Forma Ponude i usluge - povezana sa klasama Paketi, Film, Sala, Termin, ZaliheRobe, Repertoar
+Forma Registracija VIP èlana - povezana sa klasom VIP
