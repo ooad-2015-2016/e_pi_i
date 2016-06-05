@@ -1,0 +1,56 @@
+﻿<Page
+    x:Class="Kino_Projekat.TrenutniRepertoarF"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Kino_Projekat"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="703.5" Width="1130.5">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="702" VerticalAlignment="Top" HorizontalAlignment="Left" Width="1133">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="33" Margin="63,40,0,0" TextWrapping="Wrap" Text="Pretraži filmove po:" VerticalAlignment="Top" Width="174" FontSize="18.667" RenderTransformOrigin="0.739,1.03"/>
+        <RadioButton x:Name="radioButton_poNazivu" Content="nazivu" HorizontalAlignment="Left" Height="32" Margin="63,85,0,0" VerticalAlignment="Top" Width="116" Checked="radioButton_poNazivu_Checked" FontSize="18.667"/>
+        <RadioButton x:Name="radioButton_poZanru" Content="žanru" HorizontalAlignment="Left" Height="32" Margin="297,85,0,0" VerticalAlignment="Top" Width="91" Checked="radioButton_poZanru_Checked" FontSize="18.667"/>
+        <TextBox x:Name="pretraga" HorizontalAlignment="Left" Margin="63,139,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="40" Width="195" TextChanging="pretraga_TextChanging_1" FontSize="18.667"/>
+        <ListBox x:Name="rezPretrage" HorizontalAlignment="Left" Height="336" Margin="63,207,0,0" VerticalAlignment="Top" Width="430" FontSize="18.667" SelectionChanged="rezPretrage_SelectionChanged"/>
+        <Button x:Name="Nazad" Content="Nazad" HorizontalAlignment="Left" Margin="63,609,0,0" VerticalAlignment="Top" Height="36" Width="147" Click="Nazad_Click" FontSize="18.667"/>
+        <Button x:Name="IzbrisiFilm" Content="Izbriši film" HorizontalAlignment="Left" Margin="665,609,0,0" VerticalAlignment="Top" Height="36" Width="171" FontSize="18.667" Click="IzbrisiFilm_Click"/>
+        <CheckBox x:Name="checkBox_prikaziDetalje" Content="Prikaži detalje filma" HorizontalAlignment="Left" Margin="531,35,0,0" VerticalAlignment="Top" FontSize="18.667" Checked="checkBox_prikaziDetalje_Checked" Unchecked="checkBox_prikaziDetalje_Unchecked"/>
+        <Button x:Name="SpasiPromjene" Content="Spasi promjene" HorizontalAlignment="Left" Margin="913,609,0,0" VerticalAlignment="Top" Height="36" Width="171" FontSize="18.667" Click="SpasiPromjene_Click"/>
+        <TextBox x:Name="textBox_naziv" HorizontalAlignment="Left" Height="39" Margin="665,81,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="419" FontSize="18.667" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox x:Name="textBox_sinopsis" HorizontalAlignment="Left" Height="39" Margin="665,132,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="419" FontSize="18.667" IsEnabled="False" IsReadOnly="True"/>
+        <TextBlock x:Name="A1" HorizontalAlignment="Left" Margin="592,85,0,0" TextWrapping="Wrap" Text="Naziv:" VerticalAlignment="Top" Height="39" Width="61" FontSize="18.667" RenderTransformOrigin="1.238,0.436"/>
+        <TextBlock x:Name="A2" HorizontalAlignment="Left" Margin="600,138,0,0" TextWrapping="Wrap" Text="Opis:" VerticalAlignment="Top" Height="40" Width="52" FontSize="18.667" RenderTransformOrigin="0.641,0.563"/>
+        <TextBox x:Name="textBox_cijenaKarte" HorizontalAlignment="Left" Height="39" Margin="665,219,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="265" FontSize="18.667"/>
+        <TextBlock x:Name="A5" HorizontalAlignment="Left" Margin="531,225,0,0" TextWrapping="Wrap" Text="Cijena karte:" VerticalAlignment="Top" Height="33" Width="126" FontSize="18.667" RenderTransformOrigin="1.238,0.436"/>
+        <TextBox x:Name="textBox_brKarata" HorizontalAlignment="Left" Height="39" Margin="665,268,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="265" FontSize="18.667" RenderTransformOrigin="0.49,0.641"/>
+        <TextBlock x:Name="A6" HorizontalAlignment="Left" Margin="541,272,0,0" TextWrapping="Wrap" Text="Broj karata:" VerticalAlignment="Top" Height="35" Width="114" FontSize="18.667" RenderTransformOrigin="1.238,0.436"/>
+        <TextBox x:Name="textBox_redatelj" HorizontalAlignment="Left" Height="39" Margin="665,404,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="419" FontSize="18.667" IsEnabled="False"/>
+        <TextBox x:Name="textBox_uloge" HorizontalAlignment="Left" Height="39" Margin="665,454,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="419" FontSize="18.667" IsEnabled="False"/>
+        <TextBlock x:Name="A8" HorizontalAlignment="Left" Margin="585.05,408.519,0,0" TextWrapping="Wrap" Text="Režija:" VerticalAlignment="Top" Height="39.5" Width="77.5" FontSize="18.667" SelectionHighlightColor="#FFEE6349" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="0.294"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock x:Name="A9" HorizontalAlignment="Left" Margin="575,457,0,0" TextWrapping="Wrap" Text="Glumci:" VerticalAlignment="Top" Height="41" Width="94" FontSize="18.667"/>
+        <TextBox x:Name="textBox_trajanje" HorizontalAlignment="Left" Height="39" Margin="665,318,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="265" FontSize="18.667" IsEnabled="False"/>
+        <TextBlock x:Name="A7" HorizontalAlignment="Left" Margin="569.055,315.969,0,0" TextWrapping="Wrap" Text="Trajanje:" VerticalAlignment="Top" Height="38" Width="102.999" FontSize="18.667" SelectionHighlightColor="#FFEE6349" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="0.294"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBox x:Name="textBox_IMDb" HorizontalAlignment="Left" Height="39" Margin="665,504,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="111" FontSize="18.667"/>
+        <TextBlock x:Name="A11" HorizontalAlignment="Left" Margin="586,509,0,0" TextWrapping="Wrap" Text="IMDb:" VerticalAlignment="Top" Height="41" Width="94" FontSize="18.667"/>
+        <Image x:Name="slikaFilma" HorizontalAlignment="Left" Height="189" Margin="945,192,0,0" VerticalAlignment="Top" Width="139"/>
+        <ComboBox x:Name="zanrovi" HorizontalAlignment="Left" Margin="298,139,0,0" VerticalAlignment="Top" Width="195" Height="40" SelectionChanged="zanrovi_SelectionChanged">
+            <ComboBoxItem Content="akcija"/>
+            <ComboBoxItem Content="triler"/>
+            <ComboBoxItem Content="romansa"/>
+            <ComboBoxItem Content="drama"/>
+            <ComboBoxItem Content="horor"/>
+            <ComboBoxItem Content="Sci-Fi"/>
+            <ComboBoxItem Content="komedija"/>
+            <ComboBoxItem Content="dječiji"/>
+        </ComboBox>
+    </Grid>
+</Page>

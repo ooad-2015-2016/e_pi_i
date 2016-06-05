@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="Kino_Projekat.KupovinaF"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Kino_Projekat"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="539" Width="987.5">
+
+    <Grid Margin="0,0,0,-1" Height="540" VerticalAlignment="Top" HorizontalAlignment="Left" Width="989">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF6C5F68" Offset="0.923"/>
+                <GradientStop Color="#FFEC88CC"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <RadioButton x:Name="radioButton_salaA" Content="Sala A" HorizontalAlignment="Left" Margin="176,80,0,0" VerticalAlignment="Top" Height="30" Width="134" FontSize="18.667"/>
+        <RadioButton x:Name="radioButton_salaB" Content="Sala B" HorizontalAlignment="Left" Margin="310,80,0,0" VerticalAlignment="Top" Height="30" Width="134" FontSize="18.667"/>
+        <RadioButton x:Name="radioButton_salaC" Content="Sala C" HorizontalAlignment="Left" Margin="444,80,0,0" VerticalAlignment="Top" Height="30" Width="134" FontSize="18.667"/>
+        <RadioButton x:Name="radioButton_salaD" Content="Sala D" HorizontalAlignment="Left" Margin="578,80,0,0" VerticalAlignment="Top" Height="30" Width="134" FontSize="18.667"/>
+        <DatePicker x:Name="datePicker_dat" HorizontalAlignment="Left" Margin="175,257,0,0" VerticalAlignment="Top" FontSize="18.667" Width="326" IsEnabled="False"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="87,75,0,0" TextWrapping="Wrap" Text="Sale:" VerticalAlignment="Top" FontWeight="Bold" FontSize="26.667" Foreground="#FF8F1D1D"/>
+        <TimePicker x:Name="timePicker_dat" HorizontalAlignment="Left" Margin="677,256,0,0" VerticalAlignment="Top" FontSize="18.667" IsEnabled="False"/>
+        <ComboBox x:Name="comboBox_paketi" HorizontalAlignment="Left" Margin="175,315,0,0" VerticalAlignment="Top" Width="326" Height="40">
+            <ComboBoxItem Content="Family"/>
+            <ComboBoxItem Content="Ladies night"/>
+            <ComboBoxItem Content="School"/>
+            <ComboBoxItem Content="Other"/>
+        </ComboBox>
+        <CheckBox x:Name="checkBox_hrana" Content="Hrana" HorizontalAlignment="Left" Margin="176,140,0,0" VerticalAlignment="Top" FontSize="18.667"/>
+        <CheckBox x:Name="checkBox_pice" Content="Piće" HorizontalAlignment="Left" Margin="310,140,0,0" VerticalAlignment="Top" FontSize="18.667"/>
+        <CheckBox x:Name="checkBox_VIP" Content="VIP" HorizontalAlignment="Left" Margin="444,140,0,0" VerticalAlignment="Top" FontSize="18.667"/>
+        <Button x:Name="Nazad" Content="Nazad" HorizontalAlignment="Left" Margin="39,479,0,0" VerticalAlignment="Top" Click="Nazad_Click" Width="120" FontSize="18.667"/>
+        <Button x:Name="button" Content="Dodaj" HorizontalAlignment="Left" Margin="381,479,0,0" VerticalAlignment="Top" Click="Dodaj_Click" Width="120" FontSize="18.667"/>
+        <TextBlock x:Name="textBlock_cijena" HorizontalAlignment="Left" Margin="349,406,0,0" TextWrapping="Wrap" Text="0 KM" VerticalAlignment="Top" Height="35" Width="46" RenderTransformOrigin="-2.717,0.306" FontSize="18.667"/>
+        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="52,135,0,0" TextWrapping="Wrap" Text="Dodaci:" VerticalAlignment="Top" FontWeight="Bold" FontSize="26.667" Foreground="#FF8F1D1D"/>
+        <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" Margin="54,256,0,0" TextWrapping="Wrap" Text="Datum:" VerticalAlignment="Top" FontWeight="Bold" FontSize="26.667" Foreground="#FF8F1D1D"/>
+        <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" Margin="548,255,0,0" TextWrapping="Wrap" Text="Vrijeme:" VerticalAlignment="Top" FontWeight="Bold" FontSize="26.667" Foreground="#FF8F1D1D"/>
+        <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" Margin="69,316,0,0" TextWrapping="Wrap" Text="Paket:" VerticalAlignment="Top" FontWeight="Bold" FontSize="26.667" Foreground="#FF8F1D1D"/>
+        <TextBlock x:Name="textBlock_Copy4" HorizontalAlignment="Left" Margin="212,397,0,0" TextWrapping="Wrap" Text="Ukupno:" VerticalAlignment="Top" FontWeight="Bold" FontSize="26.667" Foreground="#FF0510EE" RenderTransformOrigin="0.252,0.571"/>
+        <ComboBox x:Name="comboBox_film" HorizontalAlignment="Left" Margin="175,197,0,0" VerticalAlignment="Top" Width="326" Height="40" SelectionChanged="comboBox_film_SelectionChanged"/>
+        <TextBlock x:Name="textBlock_Copy5" HorizontalAlignment="Left" Margin="85,197,0,0" TextWrapping="Wrap" Text="Film:" VerticalAlignment="Top" FontWeight="Bold" FontSize="26.667" Foreground="#FF8F1D1D"/>
+        <TextBlock x:Name="textBlock_Copy6" HorizontalAlignment="Left" Margin="39,10,0,0" TextWrapping="Wrap" Text="Kupovina karata" VerticalAlignment="Top" FontWeight="Bold" FontSize="26.667" Foreground="#FF3B04CB" Width="225"/>
+        <Button x:Name="Ponisti" Content="Poništi" HorizontalAlignment="Left" Margin="212,479,0,0" VerticalAlignment="Top" Click="Ponisti_Click" Width="120" FontSize="18.667"/>
+        <TextBlock x:Name="brPreostalihKarata" HorizontalAlignment="Left" Margin="548,197,0,0" TextWrapping="Wrap" Text="Br. preostalih karata: " VerticalAlignment="Top" FontWeight="Bold" FontSize="26.667" Foreground="#FF8F1D1D"/>
+        <Button x:Name="Izracunaj" Content="Izračunaj" HorizontalAlignment="Left" Margin="39,400,0,0" VerticalAlignment="Top" Width="120" FontSize="18.667" Click="Izracunaj_Click"/>
+        <CheckBox x:Name="checkBox_Parking" Content="Parking" HorizontalAlignment="Left" Margin="578,139,0,0" VerticalAlignment="Top" FontSize="18.667"/>
+
+    </Grid>
+</Page>
